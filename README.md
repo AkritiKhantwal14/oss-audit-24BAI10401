@@ -1,7 +1,9 @@
 Open Source Audit Scripts
 
 Student Name: Akriti Khantwal
+
 Roll Number: 24BAI10401
+
 Chosen Software: Linux (Open Source Web Browser)
 
 Project Overview
@@ -9,6 +11,7 @@ Project Overview
 This repository contains five shell scripts designed to explore Linux systems, audit open-source software, analyze logs, and create personalized outputs. The scripts demonstrate key Linux shell concepts including variables, loops, conditional statements, user input, and file management. All scripts are intended to run in a Linux environment (native Linux or WSL on Windows).
 
 Scripts Description & Usage
+
 1. System Identity Report (script1.sh)
 
 Description:
@@ -21,8 +24,11 @@ uname, uptime, whoami, date
 Step-by-step to run:
 
 cd ~/your_scripts_folder
+
 chmod +x script1.sh
+
 ./script1.sh
+
 2. FOSS Package Inspector (script2.sh)
 
 Description:
@@ -35,7 +41,9 @@ dpkg, grep
 Step-by-step to run:
 
 cd ~/your_scripts_folder
+
 chmod +x script2.sh
+
 ./script2.sh
 
 Optional: Change the package inside the script by editing the PACKAGE variable.
@@ -52,8 +60,11 @@ ls, du, awk, cut
 Step-by-step to run:
 
 cd ~/your_scripts_folder
+
 chmod +x script3.sh
+
 ./script3.sh
+
 4. Log File Analyzer (script4.sh)
 
 Description:
@@ -66,8 +77,11 @@ grep, tail
 Step-by-step to run:
 
 cd ~/your_scripts_folder
+
 chmod +x script4.sh
+
 ./script4.sh /var/log/syslog error
+
 5. Open Source Manifesto Generator (script5.sh)
 
 Description:
@@ -80,11 +94,16 @@ read, date, cat
 Step-by-step to run:
 
 cd ~/your_scripts_folder
+
 chmod +x script5.sh
+
 ./script5.sh
+
 General Notes
+
 Linux Environment: Scripts are tested on Ubuntu 20.04 via WSL and native Linux. For Windows users, copy scripts to /home/<username> for proper permissions.
+
 Executable Permission: Always run chmod +x <script>.sh before execution.
-Optional Screenshots: Screenshots of script execution can be stored in a screenshots/ folder for reference.
+
 Dependencies: Most scripts use standard Linux commands (dpkg, grep, awk, ls, du, tail) that are available in most distributions.
 
